@@ -1,0 +1,52 @@
+.header-title {
+
+  width: 15%; 
+ 
+    position: relative;
+    border-bottom: 1px solid #ccc;
+  
+}
+.header-drop-list{
+     width: 100%;
+     position: absolute;
+     background-color: #f9f9f9;
+     top:1.5rem;
+     padding: 0.5em 1em;
+     transform: translateY(-150px);
+     opacity: 0;
+     visibility: hidden;
+     display: block;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  /*shadow to droplist*/
+     z-index: 1;
+     transition: all 0.3s;
+     -webkit-transform: translateY(0.2em);
+     -moz-transform: translateY(0.2em);
+     -ms-transform: translateY(0.2em);
+     -o-transform: translateY(0.2em);
+}
+.header-title:hover .header-drop-list{
+   transform: translateY(0.3em);
+   opacity: 1;
+   visibility: visible;
+   transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   -ms-transition: all 0.3s;
+   -o-transition: all 0.3s;
+   -webkit-transform: translateY(0.3em);
+   -moz-transform: translateY(0.3em);
+   -ms-transform: translateY(0.3em);
+   -o-transform: translateY(0.3em);
+}
+.header-drop-item{
+    width: 100%;
+}
+.header-link{
+    display: block;
+    width: 100%;
+}
+.header-drop-item:hover{
+  
+    transition: all 0.3s;
+    background-color: #f1f1f1;
+}
