@@ -1,2 +1,16 @@
 
 @import "tailwindcss";
+.app-background{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: hsla(210, 67%, 79%, 1);
+
+background: linear-gradient(90deg, hsla(210, 67%, 79%, 1) 0%, hsla(60, 20%, 97%, 1) 20%, hsla(60, 20%, 97%, 1) 32%, hsla(51, 100%, 77%, 1) 50%, hsla(60, 20%, 97%, 1) 70%, hsla(60, 20%, 97%, 1) 82%, hsla(210, 67%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(210, 67%, 79%, 1) 0%, hsla(60, 20%, 97%, 1) 20%, hsla(60, 20%, 97%, 1) 32%, hsla(51, 100%, 77%, 1) 50%, hsla(60, 20%, 97%, 1) 70%, hsla(60, 20%, 97%, 1) 82%, hsla(210, 67%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(210, 67%, 79%, 1) 0%, hsla(60, 20%, 97%, 1) 20%, hsla(60, 20%, 97%, 1) 32%, hsla(51, 100%, 77%, 1) 50%, hsla(60, 20%, 97%, 1) 70%, hsla(60, 20%, 97%, 1) 82%, hsla(210, 67%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A4C8ED", endColorstr="#F9F9F6", GradientType=1 );
+}
