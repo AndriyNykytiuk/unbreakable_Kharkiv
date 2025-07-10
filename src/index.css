@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: e_Ukraine;
+    src: url(../assets/fonts/e-ukraine-regular.woff) format("woff"),
+         url(../assets/fonts/e-ukraine-regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}

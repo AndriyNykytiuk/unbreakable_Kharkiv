@@ -1,17 +1,13 @@
-
-@import "tailwindcss";
 .app-background {
+  
   min-height: 100vh;
   height: auto;
-  background: linear-gradient(
+  background: repeating-linear-gradient(
     180deg,
-    rgba(164, 200, 237, 1) 0%,
-    rgba(249, 249, 246, 1) 25%,
-    rgba(255, 238, 139, 1) 50%,
-    rgba(249, 249, 246, 1) 75%,
-    rgba(164, 200, 237, 1) 100%
+    rgba(164, 200, 237, 1) 0px,
+    rgba(249, 249, 246, 1) 400px,
+    rgba(255, 238, 139, 1) 550px,
+    rgba(249, 249, 246, 1) 700px,
+    rgba(164, 200, 237, 1) 1000px
   );
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
