@@ -8,7 +8,7 @@ const Header = () => {
     
         <header >
            <section className='max-w-7xl mx-auto p-4'>
-            <div className='flex justify-between items-center p2 '>
+            <div className='flex justify-between items-center p-2 '>
                    <HeaderDropList />
                 <div className='flex justify-between items-center gap-4 header-buttons'>
                     <div className=' flex justify-between items-center gap-4 border border-black-300 rounded-3xl header-button'>
