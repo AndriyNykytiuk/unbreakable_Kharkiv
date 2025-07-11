@@ -6,7 +6,8 @@ const Footer = () => {
   return (
     <>
 
-        <section className='footer-section max-w-7xl mx-auto p-4 bg-[#14212F] flex justify-between items-center text-white'>
+        <section className='footer-section  bg-[#14212F] '>
+            <div className='max-w-7xl mx-auto p-4 flex justify-between items-center text-white'>
             <div>
                 <h2>Звʼязатися з нами:</h2>
                 <a href="#">nezlamnyj.harkiv@gmail.com</a>
@@ -15,6 +16,8 @@ const Footer = () => {
                 <a href="#"><img src={fb} alt="Facebook" /></a>
                 <a href="#"><img src={inst} alt="Instagram" /></a>
             </div>
+            </div>
+            
         </section>
     
     </>

@@ -3,6 +3,7 @@ import '../components/css/preview.css'
 import pict from '../images/image_2.png'
 import '../components/css/preview-section.css'
 import ArticleComponent from './ArticleComponent'
+import AnimatedCounter from './AnimatedCounter'
 const Preview = () => {
   return (
     <>
@@ -47,12 +48,12 @@ const Preview = () => {
             </div>
               <div className='preview-card'>
                 <h3>
-                    Більше <br />100  працівників
+                    Більше <br /><AnimatedCounter value={100} />  працівників
                 </h3>
             </div>
               <div className='preview-card'>
-                <h3>
-                    Допомогли<br />400+ людям
+                <h3 >
+                    Допомогли <AnimatedCounter value={400} />+ людям
                 </h3>
             </div>
            </div>
