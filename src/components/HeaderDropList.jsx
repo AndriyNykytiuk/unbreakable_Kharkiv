@@ -15,7 +15,7 @@ const HeaderDropList = () => {
          
             style={{transition: 'all 0.3s '}}
             >
-            <h3 >наша робота</h3>
+            <h3 >Наша робота</h3>
             {isOpen ? <GoTriangleUp /> :<GoTriangleDown /> }
         </div>
         <div className='header-drop-list'

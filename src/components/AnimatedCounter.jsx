@@ -28,10 +28,10 @@ useEffect(() => {
   return (
     <motion.div
      ref={ref}
-      initial={{ opacity: 0, y: 40 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
+      initial={{ opacity: 0, y: -0 }}
+      animate={inView ? { opacity: 1, y: -9 } : {}}
       transition={{ duration: 0.6 }}
-      className="text-4xl font-bold text-center">  {count.toLocaleString()}</motion.div>
+      className="text-4xl font-bold text-center p-4 counter">  {count.toLocaleString()}</motion.div>
   )
 }
 

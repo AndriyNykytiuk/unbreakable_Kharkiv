@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Preview from './components/Preview'
  import Footer from './components/Footer'
+ import './components/css/mobile.css'
 import './App.css'
 const App = () => {
   return (

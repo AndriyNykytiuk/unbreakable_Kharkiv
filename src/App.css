@@ -5,9 +5,9 @@
   background: repeating-linear-gradient(
     180deg,
     rgba(164, 200, 237, 1) 0px,
-    rgba(249, 249, 246, 1) 400px,
-    rgba(255, 238, 139, 1) 550px,
     rgba(249, 249, 246, 1) 700px,
-    rgba(164, 200, 237, 1) 1000px
+    rgba(255, 238, 119, 1) 850px,
+    rgba(249, 249, 246, 1) 1500px,
+    rgba(164, 200, 237, 1) 1800px
   );
 }

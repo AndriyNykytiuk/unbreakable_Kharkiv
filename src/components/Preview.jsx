@@ -10,7 +10,7 @@ const Preview = () => {
     
         <section className='max-w-7xl mx-auto  p-4 preview-section'>
            <div className='text-center'>
-                <h1 className='text-8xl font-bold  mt-10 '>
+                <h1 className='text-8xl  mt-10 main-title'>
                     Незламний Харків
                 </h1>
                 <h3 className='text-xl font-semibold mt-5'>
@@ -20,8 +20,8 @@ const Preview = () => {
            <div className='about-us'>
                 <h2 className='text-2xl font-bold p-2'>Про нас</h2>
            </div>
-           <div className='flex justify-between items-center gap-2 mt-10'>
-                <div className='p-4'>
+           <div className=' flex justify-between items-center gap-2 mt-10  info-container'>
+                <div className='p-4 pict-kit'>
                     <img className='preview-pict' src={pict} alt="Image"/>
                 </div>
                 <div className='review-text '>
@@ -40,20 +40,20 @@ const Preview = () => {
                     </div>
                 </div>
            </div>
-           <div className='flex justify-between items-center gap-4 mt-10'>
+           <div className='flex justify-between items-center gap-4 mt-10 preview-cards'>
             <div className='preview-card'>
                 <h3>
-                    Працюємо <br />з 2022 року
+                    Працюємо з 2022 року
                 </h3>
             </div>
               <div className='preview-card'>
                 <h3>
-                    Більше <br /><AnimatedCounter value={100} />  працівників
+                    Більше  <AnimatedCounter value={100} />  працівників
                 </h3>
             </div>
               <div className='preview-card'>
                 <h3 >
-                    Допомогли <AnimatedCounter value={400} />+ людям
+                    Допомогли  <AnimatedCounter value={400} />+ людям
                 </h3>
             </div>
            </div>
